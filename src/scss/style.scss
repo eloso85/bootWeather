@@ -1,10 +1,10 @@
-$primary-color: #f4511e;
+@import "globals";
+@import "variables";
+@import "header";
 
-.jumbotron {
-    background-color: $primary-color; /* Orange */
-    color: #ffffff;
-    padding: 100px 25px;
-  }
+
+
+
     .bg-grey{
       background-color: #f6f6f6;
   }

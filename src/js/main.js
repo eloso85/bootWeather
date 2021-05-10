@@ -11,15 +11,15 @@ function geoFindMe() {
     .then(locData=>{
       console.log(locData)
       
-      $(".default-city").html(`<p>${locData.name} <br/>  </p>`)
-      $(".default-temp").html(`<p>${Math.round(locData.main.temp)}&#x2109;<p>`)
+      $(".title").html(`<p>${locData.name} <br/>  </p>`)
+      $(".temp").html(`<p>${Math.round(locData.main.temp)}&#x2109;<p>`)
       
 
       $(".default-description").html(`<h6>Feels: ${locData.main.feels_like}</h6>`)
       $(".current-humidity").html(`<h6>humidity: ${locData.main.humidity}</h6>`)
       $(".current-feel").html(`<h6>Feels: ${locData.main.feels_like}</h6>`)
       $(".current-feel").html(`<h6>Feels: ${locData.main.feels_like}</h6>`)
-      $(".logo").html(`<img src="http://openweathermap.org/img/wn/${locData.weather[0].icon}@2x.png">`)
+      $(".icon").html(`<img src="http://openweathermap.org/img/wn/${locData.weather[0].icon}@2x.png">`)
 
     });
   }

@@ -35,18 +35,7 @@ body {
   }
 }
 
-.bg-grey {
-  background-color: #f6f6f6;
-}
-
 .container-fluid {
-  padding: 60px 50px;
-}
-
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
+  background-color: #FF8300;
 }
 /*# sourceMappingURL=style.css.map */
